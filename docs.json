@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "LondonTransit Documentation",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#0a1357",
+    "light": "#007FFF",
+    "dark": "#0a1357"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -17,86 +17,56 @@
             "group": "Get Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "installation"
+            ]
+          },   
+          {
+            "group": "Commands",
+            "pages": [
+              "commands/commands-introduction",
+              "commands/network-status",
+              "commands/line-status",
+              "commands/next-arrivals",
+              "commands/journey",
+              "commands/locate-bus",
+              "commands/cycle-dock"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Technical",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "technical/troubleshooting"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/brand/lt.svg",
+    "light": "/brand/lt.svg",
+    "href": "https://londontransit.org.uk"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://www.md3v.co.uk/contact"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Add to Discord",
+      "href": "https://discord.com/api/oauth2/authorize?client_id=1138858709306260510&permissions=8&scope=bot%20applications.commands"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/t_ub3",
+      "github": "https://github.com/mrtin42/londontransit"
     }
+  },
+  "icons": {
+    "library": "lucide"
   }
 }
